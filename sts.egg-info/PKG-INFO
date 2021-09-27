@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: sts
 Version: 0.0.1
-Summary:          Utilities for time series modelling of         California electricity demand data.     
+Summary:          Utilities for structural time series modelling of         California electricity demand data.     
 Home-page: UNKNOWN
-Author: Ade Banza
+Author: Chris J. Wallace
 License: UNKNOWN
 Platform: UNKNOWN
-License-File: LICENSE.txt
+License-File: LICENSE
 
 UNKNOWN
 

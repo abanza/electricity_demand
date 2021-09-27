@@ -1,3 +1,4 @@
+# ###########################################################################
 
 import datetime
 
@@ -10,7 +11,7 @@ import plotly.express as px
 
 N_SAMPLES = 10
 
-st.title("California Electricity Demand Forecast")
+st.title("Electricity Demand Forecast")
 
 
 # Data loading and selection

@@ -1,3 +1,4 @@
+# ###########################################################################
 
 import os
 
@@ -15,7 +16,7 @@ from sts.models.baselines import year_ahead_hourly_forecast
 FORECAST_DIRECTORY = "data/forecasts"
 
 
-st.title("California Electricity Demand Model Diagnostics")
+st.title("Electricity Demand Model Diagnostics")
 
 # first, load true demand data and forecasts
 
@@ -66,7 +67,7 @@ def ape(df):
 
 st.write(
     pd.DataFrame({
-        "all training":    ape(df_train).mean().rename("MAPE"),
+        "All training":    ape(df_train).mean().rename("MAPE"),
         "2018 (training)": ape(df_2018).mean().rename("MAPE"),
         "2019  (holdout)": ape(df_2019).mean().rename("MAPE")
     }).transpose()
@@ -99,7 +100,7 @@ def mase(df):
 
 st.write(
     pd.DataFrame({
-        "all training":    mase(df_train).mean().rename("MASE"),
+        "All training":    mase(df_train).mean().rename("MASE"),
         "2018 (training)": mase(df_2018).mean().rename("MASE"),
         "2019  (holdout)": mase(df_2019).mean().rename("MASE")
     }).transpose()
