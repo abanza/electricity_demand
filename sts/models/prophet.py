@@ -1,6 +1,6 @@
 # ###########################################################################
 
-from prophet import Prophet
+from fbprophet import Prophet
 
 
 def default_prophet_model(df):
